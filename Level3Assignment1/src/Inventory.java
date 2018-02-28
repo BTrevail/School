@@ -127,6 +127,8 @@ public class Inventory {
 			System.out.println("Invalid quantity...please enter integer greater than or equal to 0");
 			System.out.print("Enter valid quantity : ");
 		}
+		check = in.nextInt();
+		in.nextLine();
 		while (check < 0) {
 			check = in.nextInt();
 			System.out.println("Invalid quantity...please enter integer greater than or equal to 0");
